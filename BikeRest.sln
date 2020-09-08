@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeRest", "BikeRest\BikeRest.csproj", "{190E8B34-E5AA-430A-86C4-892BBEE47FD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bike", "Bike\Bike.csproj", "{418F0283-66C7-452F-AAF9-A171F58AFF64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{190E8B34-E5AA-430A-86C4-892BBEE47FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190E8B34-E5AA-430A-86C4-892BBEE47FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190E8B34-E5AA-430A-86C4-892BBEE47FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190E8B34-E5AA-430A-86C4-892BBEE47FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418F0283-66C7-452F-AAF9-A171F58AFF64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418F0283-66C7-452F-AAF9-A171F58AFF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418F0283-66C7-452F-AAF9-A171F58AFF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418F0283-66C7-452F-AAF9-A171F58AFF64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3047DA5-B794-4C58-AB98-D22E31B31850}
+	EndGlobalSection
+EndGlobal
