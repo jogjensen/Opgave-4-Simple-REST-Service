@@ -8,11 +8,5 @@
     <ProjectReference Include="..\Bike\Bike.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="Bike">
-      <HintPath>..\Bike\bin\Debug\netcoreapp3.1\Bike.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 
 </Project>

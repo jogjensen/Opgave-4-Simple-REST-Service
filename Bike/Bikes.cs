@@ -17,6 +17,10 @@ namespace Bike
             _gear = gear;
         }
 
+        public Bikes()
+        {
+        }
+
         public int Id
         {
             get => _id;
@@ -39,6 +43,11 @@ namespace Bike
         {
             get => _gear;
             set => _gear = value;
+        }
+
+        public override string ToString()
+        {
+            return $"{nameof(Id)}: {Id}, {nameof(Color)}: {Color}, {nameof(Price)}: {Price}, {nameof(Gear)}: {Gear}";
         }
     }
 }
