@@ -4,23 +4,33 @@ namespace Bike
 {
     public class Bikes
     {
+
+        #region Instance fields
         private int _id;
         private string _color;
         private int _price;
         private int _gear;
+        private bool _mtb;
+        #endregion
 
-        public Bikes(int id, string color, int price, int gear)
+
+        #region Constructors
+        public Bikes(int id, string color, int price, int gear, bool mtb)
         {
             _id = id;
             _color = color;
             _price = price;
             _gear = gear;
+            _mtb = mtb;
         }
 
         public Bikes()
         {
         }
+        #endregion
 
+
+        #region Properties
         public int Id
         {
             get => _id;
@@ -45,9 +55,21 @@ namespace Bike
             set => _gear = value;
         }
 
+        public bool Mtb
+        {
+            get => _mtb;
+            set => _mtb = value;
+        }
+        #endregion
+
+
+        #region Methods
         public override string ToString()
         {
-            return $"{nameof(Id)}: {Id}, {nameof(Color)}: {Color}, {nameof(Price)}: {Price}, {nameof(Gear)}: {Gear}";
+            return $"{nameof(_id)}: {_id}, {nameof(_color)}: {_color}, {nameof(_price)}: {_price}, {nameof(_gear)}: {_gear}, {nameof(_mtb)}: {_mtb}";
         }
+        #endregion
+
+
     }
 }
