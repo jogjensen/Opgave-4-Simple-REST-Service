@@ -1,11 +1,11 @@
-﻿using System;
-
-namespace Bike
+﻿namespace Bike
 {
     public class Bikes
     {
 
         #region Instance fields
+
+        private static int _idAuto = 1;
         private int _id;
         private string _color;
         private int _price;
@@ -15,9 +15,9 @@ namespace Bike
 
 
         #region Constructors
-        public Bikes(int id, string color, int price, int gear, bool mtb)
+        public Bikes(string color, int price, int gear, bool mtb)
         {
-            _id = id;
+            _id = _idAuto++;
             _color = color;
             _price = price;
             _gear = gear;
@@ -34,7 +34,7 @@ namespace Bike
         public int Id
         {
             get => _id;
-            set => _id = value;
+            private set => _id = value;
         }
 
         public string Color
